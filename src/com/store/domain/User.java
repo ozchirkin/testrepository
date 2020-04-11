@@ -77,5 +77,5 @@ public class User {
         this.email = email;
     }
 
-
+// проверка коммита
 }
