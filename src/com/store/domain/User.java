@@ -1,5 +1,7 @@
 package com.store.domain;
 
+import java.math.BigDecimal;
+
 public class User {
     private int user_id;
     private String firstName;
@@ -9,6 +11,7 @@ public class User {
     private String password;
     private String email;
     private String telephoneNumber;
+    private BigDecimal balance;
 
     public int getUser_id() {
         return user_id;
